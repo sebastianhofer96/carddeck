@@ -1,0 +1,176 @@
+#viewport {
+    border-radius: 10px;
+    background-color: white;
+    padding: 50px;
+}
+#sidebar {
+    position: absolute;
+    width: 300px;
+    font-size: 18px;
+}
+#playingfield {
+    text-align: center;
+}
+#deck, #pile {
+    width: 85px;
+    height: 133px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+#deck {
+    cursor: pointer;
+}
+#hand {
+    min-height: 180px;
+    padding-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #e0e0e0;
+}
+.btn {
+    margin-top: 5px;
+}
+
+/**
+ * Cards
+ */
+ 
+#hand .card:hover {
+    bottom: 25px;
+    cursor: pointer;
+}
+.card {
+    width: 85px;
+    height: 133px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url(../img/sheet.png); /* Image taken from https://www.pngfind.com/mpng/iJbmTbR_uno-cards-png-cards-are-in-an-uno/ */
+    display: inline-block;
+    margin: 5px;
+}
+.card-hidden {
+    background-position: 85px 133px;
+}
+.card-Red-1 {
+    background-position: -1px 0px;
+}
+.card-Red-2 {
+    background-position: -87px 0px;
+}
+.card-Red-3 {
+    background-position: -172px 0px;
+}
+.card-Red-4 {
+    background-position: -258px 0px;
+}
+.card-Red-5 {
+    background-position: -343px 0px;
+}
+.card-Red-6 {
+    background-position: -429px 0px;
+}
+.card-Red-7 {
+    background-position: -514px 0px;
+}
+.card-Red-8 {
+    background-position: -600px 0px;
+}
+.card-Red-9 {
+    background-position: -685px 0px;
+}
+.card-Red-0 {
+    background-position: -771px 0px;
+}
+.card-Yellow-1 {
+    background-position: -1px -135px;
+}
+.card-Yellow-2 {
+    background-position: -87px -135px;
+}
+.card-Yellow-3 {
+    background-position: -172px -135px;
+}
+.card-Yellow-4 {
+    background-position: -258px -135px;
+}
+.card-Yellow-5 {
+    background-position: -343px -135px;
+}
+.card-Yellow-6 {
+    background-position: -429px -135px;
+}
+.card-Yellow-7 {
+    background-position: -514px -135px;
+}
+.card-Yellow-8 {
+    background-position: -600px -135px;
+}
+.card-Yellow-9 {
+    background-position: -685px -135px;
+}
+.card-Yellow-0 {
+    background-position: -771px -135px;
+}
+.card-Green-1 {
+    background-position: -1px -268px;
+}
+.card-Green-2 {
+    background-position: -87px -268px;
+}
+.card-Green-3 {
+    background-position: -172px -268px;
+}
+.card-Green-4 {
+    background-position: -258px -268px;
+}
+.card-Green-5 {
+    background-position: -343px -268px;
+}
+.card-Green-6 {
+    background-position: -429px -268px;
+}
+.card-Green-7 {
+    background-position: -514px -268px;
+}
+.card-Green-8 {
+    background-position: -600px -268px;
+}
+.card-Green-9 {
+    background-position: -685px -268px;
+}
+.card-Green-0 {
+    background-position: -771px -268px;
+}
+.card-Blue-1 {
+    background-position: -1px -402px;
+}
+.card-Blue-2 {
+    background-position: -87px -402px;
+}
+.card-Blue-3 {
+    background-position: -172px -402px;
+}
+.card-Blue-4 {
+    background-position: -258px -402px;
+}
+.card-Blue-5 {
+    background-position: -343px -402px;
+}
+.card-Blue-6 {
+    background-position: -429px -402px;
+}
+.card-Blue-7 {
+    background-position: -514px -402px;
+}
+.card-Blue-8 {
+    background-position: -600px -402px;
+}
+.card-Blue-9 {
+    background-position: -685px -402px;
+}
+.card-Blue-0 {
+    background-position: -771px -402px;
+}
